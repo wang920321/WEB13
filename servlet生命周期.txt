@@ -1,0 +1,7 @@
+servlet的生命周期
+1.servlet何时创建
+默认第一次访问servlet是创建对象
+2.servlet何时销毁
+服务器关闭servlet就销毁了
+3.每次访问必然会执行的方法
+service(ServletRequest req，ServletResponse res)方法
